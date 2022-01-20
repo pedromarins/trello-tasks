@@ -13,7 +13,8 @@ O objetivo é usar a [API do Trello](https://developer.atlassian.com/cloud/trell
 - [x] Pegar chave da API - e291314a91810cdd779cf7dd61976fcf
 - [x] Conectar com o Trello
 - [x] Varrer lista de boards do trello e armazenar em uma variável local o id do board
-- [ ] chamar todos os cards da lista Templates de cada um dos boards e armazenar
+- [x] Armazenar todas as listas do board `Tarefas` e armazenar em uma variável local
+- [x] Chamar todos os cards da lista `Templates` do board `Tarefas` e armazenar em uma variável local
 - [ ] iterar no json da planilha
 - [ ] Ver qual o id do board e o id da lista onde o card deverá ser criado
 - [ ] criar o novo card e guardar id dele
