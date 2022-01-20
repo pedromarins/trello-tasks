@@ -15,9 +15,28 @@ O objetivo é usar a [API do Trello](https://developer.atlassian.com/cloud/trell
 - [x] Varrer lista de boards do trello e armazenar em uma variável local o id do board
 - [x] Armazenar todas as listas do board `Tarefas` e armazenar em uma variável local
 - [x] Chamar todos os cards da lista `Templates` do board `Tarefas` e armazenar em uma variável local
-- [ ] iterar no json da planilha
+- [ ] iterar no json de coisas a serem criadas
 - [ ] Ver qual o id do board e o id da lista onde o card deverá ser criado
 - [ ] criar o novo card e guardar id dele
 - [ ] Ver qual o id do card que será usado como template
 - [ ] chamar lista de checklists do template
 - [ ] recriar todos os checklists do template no card novo
+
+
+## JSON exemplo
+
+{"Cards":[
+  {
+  "nome": "Tarefa de exemplo do LiveCode",
+  "board": "Tarefas",
+  "template": "https://trello.com/c/bGUiwWTV",
+  "date": "01/21/22"
+  },
+  { 
+  "nome": "Mais uma tarefa pro LiveCode",
+  "board": "Tarefas",
+  "template": " https://trello.com/c/ip1oeRde/9-iniciando-campanha",
+  "date": "01/23/22"
+  }
+  ]}
+ 
